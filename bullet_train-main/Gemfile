@@ -1,5 +1,4 @@
-# Bullet Train updates the Ruby version. The comments in this section
-# are from vanilla Rails.
+
 
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
