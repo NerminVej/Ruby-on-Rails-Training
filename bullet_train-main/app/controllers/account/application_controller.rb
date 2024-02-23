@@ -5,10 +5,8 @@ class Account::ApplicationController < ApplicationController
     return false unless super
 
     unless adding_team? || accepting_invitation?
-      # So, if you have new onboarding steps to check for an enforce, do that here:
     end
 
-    # Finally, if we've gotten this far, then onboarding appears to be complete!
     true
   end
 end
