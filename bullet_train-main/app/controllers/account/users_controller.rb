@@ -6,6 +6,7 @@ class Account::UsersController < Account::ApplicationController
   def permitted_fields
     [
       # 🚅 super scaffolding will insert new fields above this line.
+      # Have to look up
     ]
   end
 
