@@ -11,7 +11,6 @@ class Account::UsersController < Account::ApplicationController
 
   def permitted_arrays
     {
-      # 🚅 super scaffolding will insert new arrays above this line.
     }
   end
 
