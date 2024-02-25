@@ -16,7 +16,6 @@ class Account::UsersController < Account::ApplicationController
   end
 
   def process_params(strong_params)
-    # 🚅 super scaffolding will insert processing for new fields above this line.
     strong_params
   end
 end
