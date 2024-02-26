@@ -5,13 +5,11 @@ class Account::MembershipsController < Account::ApplicationController
 
   def permitted_fields
     [
-      # 🚅 super scaffolding will insert new fields above this line.
     ]
   end
 
   def permitted_arrays
     {
-      # 🚅 super scaffolding will insert new arrays above this line.
     }
   end
 
