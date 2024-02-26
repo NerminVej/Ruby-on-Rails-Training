@@ -1,6 +1,9 @@
 class Account::TeamsController < Account::ApplicationController
   include Account::Teams::ControllerBase
 
+  def index
+  end
+  
   private
 
   def permitted_fields
