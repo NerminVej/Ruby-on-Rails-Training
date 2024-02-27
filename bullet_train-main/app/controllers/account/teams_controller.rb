@@ -4,7 +4,7 @@ class Account::TeamsController < Account::ApplicationController
   def index
   end
 
-  def
+  def show
   end
   
   private
